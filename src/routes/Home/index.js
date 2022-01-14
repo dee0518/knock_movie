@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react"
+import { Link } from "react-router-dom"
 import { image } from "../../assets/ImportImage"
 import { HotMovies, ShortFilmList } from "../../Path"
 import FilmList from "./FilmList"
@@ -137,7 +138,7 @@ function Home(){
                              You’re posted a movie you favorites in your instargram.<br/>
                              We will randomly give movie tickets to 20 people.<br/>
                              Please participate in this event! Enjoy Your Movie!</p>
-                             <Link className="signiture-btn" to="/event">view more</Link>
+                             <Link className="signiture-btn" to="/knock_movie/event">view more</Link>
                          </div>
                          <div>
                          <div className="img-photo"></div>
