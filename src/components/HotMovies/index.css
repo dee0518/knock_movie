@@ -1,0 +1,55 @@
+.hot-movie {
+    width: calc(20% - 16px);
+    margin-bottom: 30px;
+}
+
+.hot-movie a {
+    position: relative;
+    display: block;
+    color: #fff;
+}
+
+.hot-movie a:hover .hot-movie-hover {
+    opacity: 1;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.hot-movie-hover {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100% - 58px);
+    padding: 40px 20px;
+    background: rgba(0,0,0,.4);
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.hot-movie img {
+    width: 100%;
+    height: auto;
+}
+
+.hot-movie-title {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hot-movie-year {
+    font-size: 16px;
+    line-height: 20px;
+}

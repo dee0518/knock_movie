@@ -1,0 +1,269 @@
+.chatbot-btn {
+    position: fixed;
+    right: 50%;
+    bottom: 40px;
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: calc(-42.5% - 80px);
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px 4px rgba(213,213,213,.35);
+    box-shadow: 0 0 10px 4px rgba(213,213,213,.35);
+}
+
+.home .visual {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 1024px;
+    background-size: contain;
+    background-position: right;
+}
+
+.home .visual .opacity-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+}
+
+.home .content-inner {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.home .visual .content-inner {
+    position: absolute;
+    left: 50%;
+    bottom: 80px;
+    margin-left: -42.5%;
+}
+
+.home .visual .genres {
+    width: 200px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.home .visual .genres span {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.home .visual .genres > div:first-child {
+    margin-bottom: 5px;
+    color: #bebebe;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.home .visual .title {
+    width: 400px;
+    margin-bottom: 40px;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: bold;
+    color: #fff;
+}
+
+.home .visual .signiture-btn {
+    width: 160px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.home .visual .content-inner > button {
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding-left: 5px;
+}
+
+.home .visual .content-inner > button img {
+    width: 19px;
+}
+
+.home .visual.loading .genres div:first-child {
+    width: 80px;
+    height: 22px;
+    background: #333;
+}
+
+.home .visual.loading .genres span {
+    width: 60px;
+    height: 16px;
+    background: #333;
+}
+
+.home .visual.loading .title:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 10px;
+    background: #333;
+}
+
+.home .visual.loading .title:after {
+    content: "";
+    display: block;
+    width: 70%;
+    height: 80px;
+    background: #333;
+}
+
+.home section {
+    padding-top: 150px;
+}
+
+.home section .title {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+.home .hot-movies .contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.home .short-films {
+    margin-top: 150px;
+    padding: 130px 0;
+    background: -webkit-linear-gradient(263.02deg, #A106FF -2.12%, #1830AF 29.58%, #252525 55.9%, #252525 80.08%, #A106FF 107.49%);
+    background: -o-linear-gradient(263.02deg, #A106FF -2.12%, #1830AF 29.58%, #252525 55.9%, #252525 80.08%, #A106FF 107.49%);
+    background: linear-gradient(263.02deg, #A106FF -2.12%, #1830AF 29.58%, #252525 55.9%, #252525 80.08%, #A106FF 107.49%);
+}
+
+.home .short-films .contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.home .short-films .contents > div {
+    height: 420px;
+}
+
+.home .short-films .contents .iframe-wrapper {
+    /* width: 65%; */
+    width: 800px;
+}
+
+.home .short-films iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #252525;
+}
+
+.home .short-films .contents {
+    height: 420px;
+}
+
+.home .event {
+    padding-bottom: 150px;
+}
+
+.home .event .title {
+    margin-bottom: 55px;
+}
+
+.home .event .contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.home .event p {
+    margin-bottom: 55px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.home .event .signiture-btn {
+    display: block;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.home .event .signiture-btn:hover {
+    line-height: 46px;
+}
+
+.home .event .contents > div:nth-child(2) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.home .event .img-photo {
+    width: 180px;
+    height: 200px;
+    margin-left: 10px;
+    background: url(../../assets/image/home_event_photo1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home .event .img-photo:nth-child(2) {
+    background-image: url(../../assets/image/home_event_photo2.jpg);
+}
+
+.home .event .img-photo:nth-child(3) {
+    background-image: url(../../assets/image/home_event_photo3.jpg);
+}
+
+footer {
+    padding: 30px 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #cacaca;
+    background: #000000;
+}
+
+@media screen and (min-width:1500px){
+    .chatbot-btn {
+        margin-right: -720px;
+    }
+
+    .home .content-inner {
+        width: 1280px;
+    }
+
+    .home .visual .content-inner {
+        margin-left: -640px;
+    }
+
+    .home .event .img-photo {
+        width: 200px;
+        height: 237px;
+    }
+}
