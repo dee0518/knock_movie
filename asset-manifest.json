@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/knock_movie/static/css/main.f107135d.css",
+    "main.js": "/knock_movie/static/js/main.c9830870.js",
+    "static/media/home_event_photo3.jpg": "/knock_movie/static/media/home_event_photo3.0e1a44e47b9eedd731ef.jpg",
+    "static/media/home_event_photo2.jpg": "/knock_movie/static/media/home_event_photo2.7bbcce7af958da048b7b.jpg",
+    "static/media/home_event_photo1.jpg": "/knock_movie/static/media/home_event_photo1.20eb1d67d926cb46fdf2.jpg",
+    "index.html": "/knock_movie/index.html",
+    "static/media/chatbot_btn.svg": "/knock_movie/static/media/chatbot_btn.b846dc3674894db600cc.svg",
+    "static/media/logo.svg": "/knock_movie/static/media/logo.f51400da34c6410810f5.svg",
+    "static/media/ticket_bot.svg": "/knock_movie/static/media/ticket_bot.f1487d4b18e721e53263.svg",
+    "static/media/short_film_arrow.svg": "/knock_movie/static/media/short_film_arrow.ea4906e32052ac4ecd92.svg",
+    "static/media/arrow.svg": "/knock_movie/static/media/arrow.fd200003280751470793.svg",
+    "main.f107135d.css.map": "/knock_movie/static/css/main.f107135d.css.map",
+    "main.c9830870.js.map": "/knock_movie/static/js/main.c9830870.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f107135d.css",
+    "static/js/main.c9830870.js"
+  ]
+}
