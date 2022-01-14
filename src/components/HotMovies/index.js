@@ -6,7 +6,7 @@ import "./index.css"
 function HotMovies({ id, summary, coverImg, title, year }){
     return (
         <div className='hot-movie'>
-            <Link to={`movie/${id}`}>
+            <Link to={`/knock_movie/movie/${id}`}>
                 <div className="hot-movie-hover">
                     {summary.length > 200? summary.slice(0,199) + "..." : summary}
                 </div>

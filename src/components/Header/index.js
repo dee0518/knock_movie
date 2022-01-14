@@ -11,22 +11,22 @@ function Header({ isLoggedIn }){
                 <ul>
                     <li>
                         <h1>
-                            <Link to={"/"}>
+                            <Link to={"/knock_movie/"}>
                                 <img src={image['logo.svg']} alt="knock movie"/>
                             </Link>
                         </h1>
                     </li>
                     <li>
-                        <Link to={"/"}>home</Link>
+                        <Link to={"/knock_movie/"}>home</Link>
                     </li>
                     <li>
-                        <Link to={"/cinema"}>cinema</Link>
+                        <Link to={"/knock_movie/cinema"}>cinema</Link>
                     </li>
                     <li>
-                        <Link to={"/event"}>event</Link>
+                        <Link to={"/knock_movie/event"}>event</Link>
                     </li>
                     <li>
-                        <Link to={"/contact"}>contact</Link>
+                        <Link to={"/knock_movie/contact"}>contact</Link>
                     </li>
                 </ul>
                 <div>

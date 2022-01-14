@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import { Link } from "react-router-dom"
 import { image } from "../../assets/ImportImage"
 import { HotMovies, ShortFilmList } from "../../Path"
 import FilmList from "./FilmList"
